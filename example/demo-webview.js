@@ -44,8 +44,9 @@ class WebViewForFindex extends React.Component {
 
     //Get the function the website hope to executed by wallet
     switch (msgData.targetFunc) {
-      // more cases can be defined here, for findex, normally ask eos account to execute transaction function
+      // More cases can be defined here, for findex, normally ask eos account to execute transaction function
       case "transaction":
+        // Before execute transaction function to sign for data, it's better to show msgData to users to let give users the chance to review the transaction
         this[msgData.targetFunc].apply(this, [msgData]);
         break;
     }
