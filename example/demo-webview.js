@@ -57,7 +57,7 @@ class WebViewForFindex extends React.Component {
                     ref={webview => {
                       this.myWebView = webview;
                     }}
-                    source={{uri: 'https://mainnet.findex.one'}}/>
+                    source={{uri: 'https://mainnet.findex.one?inWallet=tokenPocket&eos_account=examplename1&lang=zh-CN'}}/>
   }
 }
 
