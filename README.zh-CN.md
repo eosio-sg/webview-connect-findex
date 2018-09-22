@@ -10,7 +10,7 @@ Webview-connect-findex
   例中的eos常量可以根据自己情况从外部（上层组件或者store里面的数据）传入
   
 2.在代码中将自己钱包的名字，当前账户，以及用户所用语言版本作为参数放到 WebView的source 的url中：
-  eg: https://mainnet.findex.one?inWallet=tokenPocket&eos_account=examplename1&lang=zh-CN;
+  eg: https://example.findex.one?inWallet=tokenPocket&eos_account=examplename1&lang=zh-CN;
   若用户没有在钱包中登录，则不传入eos_account;
   如果没有传入lang，打开findex的默认语言为英文;
 

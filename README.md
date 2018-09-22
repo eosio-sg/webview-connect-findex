@@ -2,7 +2,7 @@
 
 Webview-connect-Findex
 
-Here we will tell you how to open and trade in Findex website in your RN wallet.
+Here we will tell you how embed Findex website in your RN wallet.
 Findex can post the transaction data to wallet, the account logged in the wallet sign the data, and broadcast the data signed to EOS mainnet, later,
 wallet could also feedback the transaction result to Findex.
 
@@ -13,7 +13,7 @@ To realize the features above, just follow the steps:
 
 2.You could see source in WebView's params in the code:
   Please give your wallet name, eos_account logged in the wallet and language as parameters in the url.
-  Here is the example: https://mainnet.findex.one?inWallet=tokenPocket&eos_account=examplename1&lang=zh-CN;
+  Here is the example: https://example.findex.one?inWallet=tokenPocket&eos_account=examplename1&lang=zh-CN;
   If no account has logged in, eos_account should be discarded;
   English would be the default language if no parameter - lang is given.
 
