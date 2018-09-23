@@ -1,6 +1,6 @@
-##[English](https://github.com/eosio-sg/webview-connect-findex/blob/master/README.md)    [简体中文](https://github.com/eosio-sg/webview-connect-findex/blob/master/README.zh-CN.md)
+[English](https://github.com/eosio-sg/webview-connect-findex/blob/master/README.md)    [简体中文](https://github.com/eosio-sg/webview-connect-findex/blob/master/README.zh-CN.md)
 
-**Webview-connect-findex**
+## **Webview-connect-findex**
 
 Here we will tell you how embed Findex website in your RN wallet.just follow the steps:
 
