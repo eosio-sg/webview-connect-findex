@@ -4,9 +4,7 @@
 
 这里讲述React Native App如何使用webview与Findex交易网站进行通信。实现此功能，只需要在钱包中进行以下几步操作：
 
-1.将example/demo-webview.js 中的组件引入于钱包文件中：<br>
-    `const eos = Eos(exampleConfig);` <br>
-  例中的eos常量可以根据自己情况从外部（上层组件或者store里面的数据）传入
+1.将example/demo-webview.js 中的组件引入于钱包文件中, 可以根据自己的需求进行改造。<br>
   
 2.在代码中将自己钱包的名字，当前账户，以及用户所用语言版本作为参数放到 WebView的source 的url中：<br>
 ```javascript
