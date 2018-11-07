@@ -2,8 +2,6 @@
 
 ## **Webview-connect-findex**
 
-Here we will tell you how embed Findex website in your RN wallet. Just follow the steps:
-
 1.You may use directly or strengthen the Component in example/demo-webview.js:<br>
 
 2.Give your wallet name, eos_account logged in the wallet and language as parameters in the url.
